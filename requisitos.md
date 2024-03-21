@@ -14,10 +14,7 @@ Com base nas especificações fornecidas, apresentamos abaixo os requisitos deta
 - O sistema precisa alertar caso algum dado esteja faltando durante a criação do relatório.
 - O sistema precisa enviar o relatório criado para o site principal, onde foi feita a solicitação do relatório.
 - Os usuários devem poder acessar os históricos dos relatórios já criados.
-- O sistema devera organizar as informações de forma intuitiva facilitando a localização de informações relevantes, agrupando-as por categorias e utilizando recursos visuais como ícones e menus.
-- O sistema deve Obter feedback dos usuários para identificar e corrigir problemas na interface.
-- O sistema devera Oferecer dicas e tutoriais Fornecendo suporte aos usuários com instruções passo a passo e dicas de uso da plataforma.
-- 
+- O sistema devera organizar as informações de forma intuitiva facilitando a localização de informações relevantes, agrupando-as por categorias e utilizando recursos visuais como ícones e menus. 
 
 ## Lista de requisitos do sistema (linguagem precisa e técnica, código para identificação) 
 ### Usabilidade:
