@@ -7,7 +7,7 @@ Com base nas especificações fornecidas, apresentamos abaixo os requisitos deta
 - O sistema deve possibilitar a adição intuitiva de imagens aos relatórios.
 - O sistema deve permitir que o usuário anexe os resultados dos cálculos feitos por software externo.
 - O sistema deve apresentar uma interface amigável ao usuário.
-- O sistema deve fornecer uma interface para a criação de relatórios, com suporte para inclusão de imagens e resultados de exames.
+- O sistema deve fornecer uma interface para a criação de relatórios e resultados de exames.
 - O sistema deve apresentar a criação de um relatório como um assistente passo a passo.
 - O sistema deve possibilitar a geração de relatórios em formato PDF.
 - O sistema deve permitir apenas que funcionários da Dosimagem acessem-no.
@@ -19,13 +19,12 @@ Com base nas especificações fornecidas, apresentamos abaixo os requisitos deta
 ## Lista de requisitos do sistema (linguagem precisa e técnica, código para identificação) 
 ### Desempenho:
 
-- **EF-1**: O sistema deve permitir o usuário anexar múltiplas imagens simultaneamente.
-- **EF-2**: O sistema deve facilitar a adição de imagens aos relatórios de forma intuitiva.
-- **EF-3**: O sistema deve permitir que o usuário anexe resultados de cálculos feitos por software externo.
-- **EF-4**: O sistema deve possibilitar a geração de relatórios em formato PDF.
-- **EF-5**: O sistema deve enviar automaticamente o relatório criado para o site principal, onde a solicitação foi feita.
-- **EF-6**: Os usuários devem ter acesso aos históricos dos relatórios já criados.
-- **EF-7**: O sistema deve fornecer uma pré-visualização das imagens selecionadas antes de anexá-las.
+- **EF-1**: O sistema deverá mostrar as imagens ja armazenadas pela clínica, as organizando de modo que tenha fácil acesso aos seus usuários.
+- **EF-2**: O sistema deve permitir que o usuário anexe resultados de cálculos feitos por software externo.
+- **EF-3**: O sistema deve possibilitar a geração de relatórios em formato PDF.
+- **EF-4**: O sistema deve enviar automaticamente o relatório criado para o site principal, onde a solicitação foi feita.
+- **EF-5**: Os usuários devem ter acesso aos históricos dos relatórios já criados.
+
 
 ### Integridade e Confiabilidade:
 
@@ -39,5 +38,4 @@ Com base nas especificações fornecidas, apresentamos abaixo os requisitos deta
 - **MT-1**: O sistema deve validar que os arquivos upados sejam arquivos válidos (JPEG, PNG, PDF, etc.).
 - **MT-2**: O sistema deve validar que os arquivos upados não excedam o tamanho máximo permitido por arquivo.
 
-### Acessibilidade:
-- **AS-1**: O sistema deve fornecer recursos de acessibilidade, como leitores de tela, lupas e navegação por teclado.
+.
