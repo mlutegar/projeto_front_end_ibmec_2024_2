@@ -7,6 +7,6 @@ Com base nas especificações fornecidas, apresentamos abaixo os requisitos deta
 - O sistema deve possibilitar a adição intuitiva de imagens aos relatórios.
 
 ## Lista de requisitos do sistema (linguagem precisa e técnica, código para identificação) 
-*RS001*: O sistema deve ser intuitivo para usuários inexperientes.
-*RS002*: O sistema deve permitir o usuário anexar múltiplas imagens simultaneamente.
-*RS003*: O sistema deve facilitar a adição de imagens aos relatórios de forma intuitiva.
+- *RS001*: O sistema deve ser intuitivo para usuários inexperientes.
+- *RS002*: O sistema deve permitir o usuário anexar múltiplas imagens simultaneamente.
+- *RS003*: O sistema deve facilitar a adição de imagens aos relatórios de forma intuitiva.
