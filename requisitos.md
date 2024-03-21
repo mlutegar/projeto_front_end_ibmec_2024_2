@@ -17,13 +17,6 @@ Com base nas especificações fornecidas, apresentamos abaixo os requisitos deta
 - O sistema devera organizar as informações de forma intuitiva facilitando a localização de informações relevantes, agrupando-as por categorias e utilizando recursos visuais como ícones e menus. 
 
 ## Lista de requisitos do sistema (linguagem precisa e técnica, código para identificação) 
-### Usabilidade:
-
-- **US-1**: A interface do sistema deve ser intuitiva e fácil de usar, com ícones e menus autoexplicativos.
-- **US-2**: O sistema deve fornecer dicas e instruções contextuais para auxiliar o usuário na execução de tarefas.
-- **US-3**: As tarefas do sistema devem ser divididas em etapas pequenas e fáceis de seguir.
-- **US-4**: O sistema deve oferecer uma interface para criação de relatórios, com suporte para inclusão de imagens e resultados de exames.
-
 ### Desempenho:
 
 - **EF-1**: O sistema deve permitir o usuário anexar múltiplas imagens simultaneamente.
