@@ -3,6 +3,10 @@ Com base nas especificações fornecidas, apresentamos abaixo os requisitos deta
 
 ## Requisitos em linguagem natural 
 - O sistema deve permitir que usuários inexperientes consigam operá-lo.
+- O sistema deve permitir que o usuário anexe mais de uma imagem de uma só vez.
+- O sistema deve possibilitar a adição intuitiva de imagens aos relatórios.
 
 ## Lista de requisitos do sistema (linguagem precisa e técnica, código para identificação) 
 *RS001*: O sistema deve ser intuitivo para usuários inexperientes.
+*RS002*: O sistema deve permitir o usuário anexar múltiplas imagens simultaneamente.
+*RS003*: O sistema deve facilitar a adição de imagens aos relatórios de forma intuitiva.
