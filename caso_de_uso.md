@@ -1,6 +1,7 @@
 # Casos de Uso
 
-## Caso de Uso 1: Solicitar Serviço
+## Caso de Uso 1
+Solicitar Serviço
 
 ### Descrição:
 Este caso de uso descreve o processo pelo qual um cliente solicita um serviço à Dosimagem, enviando imagens de calibração e do paciente para receber um relatório.
