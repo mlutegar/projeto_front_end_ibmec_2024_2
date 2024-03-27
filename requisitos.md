@@ -23,3 +23,7 @@
 - RF-05: Uma interface que exiba os dados e anexos dos pacientes associados a cada solicitação.
 - RF-06: Uma interface onde os funcionários possam ver todas as solicitações recebidas.
 - RF-07: Um sistema de autenticação para que os funcionários possam acessar o painel de administrador do site.
+
+### Requisitos não funcionais
+
+- RNF-01: O front-end do sistema deve ser desenvolvido utilizando a biblioteca ReactJS
