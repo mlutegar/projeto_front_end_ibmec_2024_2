@@ -31,7 +31,8 @@ O cliente deve estar cadastrado no sistema.
 ### Pós-condições:
 O relatório está disponível para o cliente.
 
-## Caso de Uso 2: Processar Solicitações de Serviço
+## Caso de Uso 2
+### Titulo: Processar Solicitações de Serviço
 
 ### Descrição:
 Neste caso de uso, um funcionário da Dosimagem processa as solicitações de serviço pendentes, baixando as imagens de calibração e do paciente, enviando para o software 3D Slice para geração de relatório, e anexando o relatório à solicitação do cliente.
@@ -61,7 +62,8 @@ Existem solicitações de serviço pendentes.
 ### Pós-condições:
 O relatório está anexado à solicitação do cliente.
 
-## Caso de Uso 3: Monitorar Status de Solicitações de Serviço
+## Caso de Uso 3
+### Titulo: Monitorar Status de Solicitações de Serviço
 
 ### Descrição:
 Este caso de uso descreve como um funcionário da Dosimagem monitora o status das solicitações de serviço em andamento, verificando e atualizando o progresso das solicitações conforme necessário.
@@ -86,7 +88,8 @@ Funcionário da Dosimagem
 ### Pós-condições:
 - O status das solicitações é atualizado conforme as ações realizadas pelo funcionário, permitindo um acompanhamento eficaz do progresso dos serviços de imagem médica.
 
-## Caso de Uso 4: Receber Relatório de Serviço
+## Caso de Uso 4
+### Titulo: Receber Relatório de Serviço
 
 ### Descrição:
 Neste caso de uso, um cliente acessa o sistema da Dosimagem para receber um relatório de serviço previamente solicitado, selecionando-o na lista disponível e fazendo o download do relatório gerado.
@@ -108,7 +111,8 @@ O cliente deve ter acesso ao sistema da Dosimagem. O relatório de serviço deve
 ### Pós-condições:
 O relatório é entregue ao cliente com sucesso.
 
-## Caso de Uso 5: Atualizar Informações do Paciente
+## Caso de Uso 5
+### Titulo: Atualizar Informações do Paciente
 
 ### Descrição: 
 Este caso de uso permite ao cliente atualizar as informações do paciente armazenadas no sistema dosImagem, garantindo que os dados estejam sempre precisos
