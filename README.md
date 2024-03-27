@@ -10,8 +10,8 @@ Desenvolvimento da interface front-end para o software de administração da Dos
 - [Requisitos](https://github.com/mlutegar/projeto_front_end_ibmec_2024_2/blob/casos_de_uso/requisitos.md)
 
 ### Casos de Uso
-- [Caso de Uso 1](https://github.com/mlutegar/projeto_front_end_ibmec_2024_2/blob/casos_de_uso/caso_de_uso.md#caso-de-uso-1)
-- [Caso de Uso 2](https://github.com/mlutegar/projeto_front_end_ibmec_2024_2/blob/casos_de_uso/caso_de_uso.md#caso-de-uso-2)
+- [Caso de Uso 1](https://github.com/mlutegar/projeto_front_end_ibmec_2024_2/blob/casos_de_uso/caso_de_uso.md##caso-de-uso-1)
+- [Caso de Uso 2](https://github.com/mlutegar/projeto_front_end_ibmec_2024_2/blob/casos_de_uso/caso_de_uso.md##caso-de-uso-2)
 - [Caso de Uso 3](https://github.com/mlutegar/projeto_front_end_ibmec_2024_2/blob/casos_de_uso/caso_de_uso.md#caso-de-uso-3)
 - [Caso de Uso 4](https://github.com/mlutegar/projeto_front_end_ibmec_2024_2/blob/casos_de_uso/caso_de_uso.md#caso-de-uso-4)
 - [Caso de Uso 5](https://github.com/mlutegar/projeto_front_end_ibmec_2024_2/blob/casos_de_uso/caso_de_uso.md#caso-de-uso-5)
