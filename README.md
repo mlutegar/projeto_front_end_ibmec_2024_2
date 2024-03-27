@@ -1,9 +1,17 @@
-# Projeto Front End - IBMEC 2024_2
+# Projeto Front End - IBMEC 2024.1
+
+Este é um projeto de front-end desenvolvido no IBMEC no ano de 2024.1.
 
 ## Dosimagem
 
-O primeiro projeto consiste em desenvolver a interface front-end do software de administração para a empresa Dosimagem. Acreditamos que neste projeto será necessário analisar as regras de negócio da empresa, através de documentos, do software já existente ou em contato direto com o cliente. A interface deve ser objetiva e direta, priorizando a facilidade de uso para os funcionários da Dosimagem, permitindo que executem suas funções de forma eficiente.
+Desenvolvimento da interface front-end para o software de administração da Dosimagem, priorizando a análise das regras de negócio da empresa. A interface deve ser objetiva e direta, facilitando o uso para os funcionários da Dosimagem. 
 
-## Imprime Já
+- 5w2h❓ [Link para 5w2h]
+- Requisitos🔩 [Link para requisitos] 
 
-O segundo projeto, para o Imprime Já, envolve a criação da interface front-end para um marketplace de papelaria. Neste caso, estaremos desenvolvendo um e-commerce, então a interface pode ser mais visualmente atraente, porém ainda objetiva e funcional. Deve permitir a fácil visualização de todas as informações necessárias sobre os materiais vendidos e as empresas parceiras.
+### Casos de Uso
+- [Caso de Uso 1](link_para_caso_de_uso_1)
+- [Caso de Uso 2](link_para_caso_de_uso_2)
+- [Caso de Uso 3](link_para_caso_de_uso_3)
+- [Caso de Uso 4](link_para_caso_de_uso_4)
+- [Caso de Uso 5](link_para_caso_de_uso_5)
