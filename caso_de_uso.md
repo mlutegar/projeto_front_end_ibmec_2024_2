@@ -102,3 +102,19 @@ O cliente deve ter acesso ao sistema da Dosimagem. O relatório de serviço deve
 
 ### Pós-condições:
 O relatório é entregue ao cliente com sucesso.
+
+### Caso de Uso 5:Atualizar Informações do Paciente
+
+### Ator Principal: 
+Cliente.
+### Pré-condições:
+O cliente deve ter acesso ao site dosImagem.
+O cliente deve estar cadastrado no sistema.
+### Fluxo Principal:
+O cliente faz login no site dosImagem.
+O cliente acessa a opção de perfil do paciente.
+O sistema exibe as informações atuais do paciente.
+O cliente atualiza as informações conforme necessário.
+O cliente salva as alterações.
+### Pós-condições:
+As informações do paciente são atualizadas no sistema.
