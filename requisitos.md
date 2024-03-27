@@ -20,6 +20,6 @@
 - RF-02: Um botão para que os funcionários possam anexar o arquivo PDF do relatório à solicitação específica do cliente no painel de administrador.
 - RF-03: Um botão para download das imagens de calibração.
 - RF-04: Um botão para download do arquivo zip contendo as imagens do paciente.
-- RF-05: Uma interface que exiba os dados e imagens dos pacientes associados a cada solicitação.
+- RF-05: Uma interface que exiba os dados e anexos dos pacientes associados a cada solicitação.
 - RF-06: Uma interface onde os funcionários possam ver todas as solicitações recebidas.
 - RF-07: Um sistema de autenticação para que os funcionários possam acessar o painel de administrador do site.
