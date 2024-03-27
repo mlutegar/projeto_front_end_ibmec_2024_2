@@ -7,7 +7,7 @@ Este é um projeto de front-end desenvolvido no IBMEC no ano de 2024.1.
 Desenvolvimento da interface front-end para o software de administração da Dosimagem, priorizando a análise das regras de negócio da empresa. A interface deve ser objetiva e direta, facilitando o uso para os funcionários da Dosimagem. 
 
 - [5w2h](https://github.com/mlutegar/projeto_front_end_ibmec_2024_2/blob/casos_de_uso/5w2h.md)
-- [Requisitos](Link para requisitos)
+- [Requisitos](https://github.com/mlutegar/projeto_front_end_ibmec_2024_2/blob/casos_de_uso/requisitos.md)
 
 ### Casos de Uso
 - [Caso de Uso 1](link_para_caso_de_uso_1)
