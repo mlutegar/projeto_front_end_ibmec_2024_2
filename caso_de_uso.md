@@ -49,3 +49,21 @@ Existem solicitações de serviço pendentes.
 
 ### Pós-condições:
 O relatório está anexado à solicitação do cliente.
+
+### Caso de Uso 3: Receber Relatório de Serviço
+Ator Principal:
+Cliente
+
+### Pré-condições:
+O cliente deve ter acesso ao sistema da Dosimagem. O relatório de serviço deve estar pronto para entrega.
+
+### Fluxo Principal:
+O cliente faz login no sistema da Dosimagem.
+O cliente acessa a lista de relatórios de serviço prontos para entrega.
+O sistema exibe os relatórios disponíveis para o cliente.
+O cliente seleciona o relatório desejado para recebimento.
+O sistema gera uma cópia do relatório para o cliente.
+O cliente faz download do relatório gerado.
+
+### Pós-condições:
+O relatório é entregue ao cliente com sucesso.
