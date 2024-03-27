@@ -15,13 +15,17 @@ O cliente deve estar cadastrado no sistema.
 ### Fluxo Principal:
 1. O cliente faz login no site da dosimagem.
 2. O cliente acessa a opção de solicitação de serviço.
-3. O sistema solicita as imagens de calibração para cada máquina que realizará a simetria.
-4. O cliente envia as imagens de calibração.
-5. O cliente compacta as imagens do paciente em um arquivo ZIP.
-6. O cliente seleciona a calibração a ser usada.
-7. O sistema recebe as imagens de calibração e do paciente.
-8. O sistema gera o relatório com base nas informações fornecidas.
-9. O sistema notifica o cliente quando o relatório estiver pronto.
+3. O cliente acessa a aba de envio de calibração.
+4. O sistema solicita as imagens de calibração para cada máquina que realizará a simetria.
+5. O cliente envia as imagens de calibração.
+6. O sistema recebe as imagens de calibração
+7. O cliente acessa a aba de envio de dados do paciente.
+8. O sistema solicita os dados e as fotos do paciente.
+9. O cliente compacta as imagens do paciente em um arquivo ZIP.
+10. O cliente seleciona a calibração a ser usada.
+11. O sistema recebe os dados e as imagens e do paciente.
+12. (Caso de uso 2: Processar Solicitações de Serviço)
+13. O sistema notifica o cliente quando o relatório estiver pronto.
 
 ### Pós-condições:
 O relatório está disponível para o cliente.
@@ -110,14 +114,17 @@ Este caso de uso permite ao cliente atualizar as informações do paciente armaz
 
 ### Ator Principal: 
 Cliente.
+
 ### Pré-condições:
 O cliente deve ter acesso ao site dosImagem.
 O cliente deve estar cadastrado no sistema.
+
 ### Fluxo Principal:
 1. O cliente faz login no site dosImagem.
 2. O cliente acessa a opção de perfil do paciente.
 3. O sistema exibe as informações atuais do paciente.
 4. O cliente atualiza as informações conforme necessário.
 5. O cliente salva as alterações.
+
 ### Pós-condições:
 As informações do paciente são atualizadas no sistema.
