@@ -6,7 +6,6 @@
 - O sistema deve apresentar uma interface amigável ao usuário.
 - O sistema deve fornecer uma interface para a criação de relatórios e resultados de exames.
 - O sistema deve permitir apenas que funcionários da Dosimagem acessem-no.
-- O sistema precisa alertar caso algum dado esteja faltando durante a criação do relatório.
 - O sistema precisa enviar o relatório criado para o site principal, onde foi feita a solicitação do relatório.
 - Os funcionários devem poder acessar os históricos dos relatórios já criados.
 - Os funcionários devem ser capazes de visualizar as solicitações recebidas.
