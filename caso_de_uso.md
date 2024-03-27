@@ -2,6 +2,9 @@
 
 ## Caso de Uso 1: Solicitar Serviço
 
+### Descrição:
+Este caso de uso descreve o processo pelo qual um cliente solicita um serviço à Dosimagem, enviando imagens de calibração e do paciente para receber um relatório.
+
 ### Ator Principal: 
 Cliente
 
@@ -24,6 +27,9 @@ O cliente deve estar cadastrado no sistema.
 O relatório está disponível para o cliente.
 
 ## Caso de Uso 2: Processar Solicitações de Serviço
+
+### Descrição:
+Neste caso de uso, um funcionário da Dosimagem processa as solicitações de serviço pendentes, baixando as imagens de calibração e do paciente, enviando para o software 3D Slice para geração de relatório, e anexando o relatório à solicitação do cliente.
 
 ### Ator Principal: 
 Funcionário da Dosimagem
@@ -52,6 +58,9 @@ O relatório está anexado à solicitação do cliente.
 
 ## Caso de Uso 3: Monitorar Status de Solicitações de Serviço
 
+### Descrição:
+Este caso de uso descreve como um funcionário da Dosimagem monitora o status das solicitações de serviço em andamento, verificando e atualizando o progresso das solicitações conforme necessário.
+
 ### Ator Principal:
 Funcionário da Dosimagem
 
@@ -73,7 +82,11 @@ Funcionário da Dosimagem
 - O status das solicitações é atualizado conforme as ações realizadas pelo funcionário, permitindo um acompanhamento eficaz do progresso dos serviços de imagem médica.
 
 ## Caso de Uso 4: Receber Relatório de Serviço
-Ator Principal:
+
+### Descrição:
+Neste caso de uso, um cliente acessa o sistema da Dosimagem para receber um relatório de serviço previamente solicitado, selecionando-o na lista disponível e fazendo o download do relatório gerado.
+
+### Ator Principal:
 Cliente
 
 ### Pré-condições:
