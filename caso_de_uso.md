@@ -1,4 +1,4 @@
-# Caso de Uso
+# Casos de Uso
 
 ## Caso de Uso 1: Solicitar Serviço
 
@@ -50,7 +50,29 @@ Existem solicitações de serviço pendentes.
 ### Pós-condições:
 O relatório está anexado à solicitação do cliente.
 
-### Caso de Uso 3: Receber Relatório de Serviço
+## Caso de Uso 3: Monitorar Status de Solicitações de Serviço
+
+### Ator Principal:
+Funcionário da Dosimagem
+
+### Pré-condições:
+- O funcionário deve ter acesso ao sistema da Dosimagem.
+- Existir solicitações de serviço em andamento.
+
+### Fluxo Principal:
+1. O funcionário faz login no sistema da dosimagem.
+2. O funcionário acessa o painel de controle de solicitações de serviço.
+3. O sistema exibe uma lista das solicitações dos pacientes em andamento.
+4. O funcionário seleciona uma solicitação para visualizar mais detalhes.
+5. O sistema exibe o status atual da solicitação, como "Dados enviados", "Verificando Informações", "Informações Inválidas", "Processando a análise" ou "Análise concluída".
+6. O funcionário verifica se há alguma ação necessária para avançar com a solicitação.
+7. Se necessário, o funcionário atualiza o status da solicitação no sistema.
+8. O funcionário pode adicionar notas ou comentários à solicitação, se necessário.
+
+### Pós-condições:
+- O status das solicitações é atualizado conforme as ações realizadas pelo funcionário, permitindo um acompanhamento eficaz do progresso dos serviços de imagem médica.
+
+## Caso de Uso 4: Receber Relatório de Serviço
 Ator Principal:
 Cliente
 
@@ -58,12 +80,12 @@ Cliente
 O cliente deve ter acesso ao sistema da Dosimagem. O relatório de serviço deve estar pronto para entrega.
 
 ### Fluxo Principal:
-O cliente faz login no sistema da Dosimagem.
-O cliente acessa a lista de relatórios de serviço prontos para entrega.
-O sistema exibe os relatórios disponíveis para o cliente.
-O cliente seleciona o relatório desejado para recebimento.
-O sistema gera uma cópia do relatório para o cliente.
-O cliente faz download do relatório gerado.
+1. O cliente faz login no sistema da Dosimagem.
+2. O cliente acessa a lista de relatórios de serviço prontos para entrega.
+3. O sistema exibe os relatórios disponíveis para o cliente.
+4. O cliente seleciona o relatório desejado para recebimento.
+5. O sistema gera uma cópia do relatório para o cliente.
+6. O cliente faz download do relatório gerado.
 
 ### Pós-condições:
 O relatório é entregue ao cliente com sucesso.
