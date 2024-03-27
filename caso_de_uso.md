@@ -103,7 +103,7 @@ O cliente deve ter acesso ao sistema da Dosimagem. O relatório de serviço deve
 ### Pós-condições:
 O relatório é entregue ao cliente com sucesso.
 
-## Caso de Uso 5:Atualizar Informações do Paciente
+## Caso de Uso 5: Atualizar Informações do Paciente
 
 ### Descrição: 
 Este caso de uso permite ao cliente atualizar as informações do paciente armazenadas no sistema dosImagem, garantindo que os dados estejam sempre precisos
