@@ -114,10 +114,10 @@ Cliente.
 O cliente deve ter acesso ao site dosImagem.
 O cliente deve estar cadastrado no sistema.
 ### Fluxo Principal:
-O cliente faz login no site dosImagem.
-O cliente acessa a opção de perfil do paciente.
-O sistema exibe as informações atuais do paciente.
-O cliente atualiza as informações conforme necessário.
-O cliente salva as alterações.
+1. O cliente faz login no site dosImagem.
+2. O cliente acessa a opção de perfil do paciente.
+3. O sistema exibe as informações atuais do paciente.
+4. O cliente atualiza as informações conforme necessário.
+5. O cliente salva as alterações.
 ### Pós-condições:
 As informações do paciente são atualizadas no sistema.
