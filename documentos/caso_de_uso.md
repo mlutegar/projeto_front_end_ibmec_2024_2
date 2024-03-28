@@ -138,7 +138,7 @@ Funcionário da Dosimagem
 - Os arquivos necessários, incluindo as imagens do paciente e da calibração, são baixados com sucesso, prontos para serem processados conforme necessário.
 
 ## Caso de Uso 6
-### Título: Login no Sistema dosImagem
+### Título: Login no Sistema
 
 ### Descrição:
 Este caso de uso descreve o processo pelo qual um usuário acessa o sistema dosImagem através de autenticação, fornecendo suas credenciais de login.
