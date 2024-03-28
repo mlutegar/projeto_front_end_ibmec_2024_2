@@ -158,3 +158,31 @@ Usuário
 
 ### Pós-condições:
 O usuário está autenticado no sistema dosImagem e pode acessar as funcionalidades disponíveis de acordo com seu perfil de usuário.
+
+## Caso de Uso 7
+### Título: Baixar Arquivos de Paciente e Calibração
+
+### Descrição:
+Neste caso de uso, um funcionário da Dosimagem realiza o download dos arquivos necessários, incluindo as imagens do paciente e da calibração, para processar uma solicitação de serviço.
+
+### Ator Principal:
+Funcionário da Dosimagem
+
+### Pré-condições:
+- O funcionário deve estar autenticado no sistema da Dosimagem.
+- Existem solicitações de serviço pendentes que requerem o download de arquivos de paciente e calibração.
+
+### Fluxo Principal:
+1. O funcionário acessa o sistema da Dosimagem.
+2. O funcionário navega até o painel de administração ou área dedicada ao processamento de solicitações de serviço.
+3. O sistema exibe uma lista das solicitações de serviço pendentes.
+4. O funcionário seleciona uma solicitação específica para processamento.
+5. O sistema exibe as informações da solicitação, incluindo detalhes do paciente e as calibrações necessárias.
+6. O funcionário verifica as instruções da solicitação para identificar quais arquivos precisam ser baixados.
+7. O funcionário seleciona as imagens do paciente e da calibração associadas à solicitação.
+8. O sistema oferece opções para baixar os arquivos selecionados.
+9. O funcionário confirma o download dos arquivos.
+10. O sistema inicia o download dos arquivos selecionados para o dispositivo do funcionário.
+
+### Pós-condições:
+- Os arquivos necessários, incluindo as imagens do paciente e da calibração, são baixados com sucesso para o dispositivo do funcionário da Dosimagem, prontos para serem processados conforme necessário.
