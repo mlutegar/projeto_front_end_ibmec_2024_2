@@ -1,5 +1,7 @@
 # Casos de Uso
 
+![Caso de uso](https://github.com/mlutegar/projeto_front_end_ibmec_2024_2/blob/casos_de_uso/documentos/imgs/casos_de_uso.png)
+
 ## Caso de Uso 1
 ### Titulo: Solicitar Serviço
 
@@ -14,7 +16,7 @@ O cliente deve ter acesso ao site da dosimagem.
 O cliente deve estar cadastrado no sistema.
 
 ### Fluxo Principal:
-1. O cliente faz login no site da dosimagem. (Caso de uso 6)
+1. O cliente faz login no site da dosimagem. (Caso de uso 6: Login no Sistema dosImagem)
 2. O cliente acessa a opção de solicitação de serviço.
 3. O cliente acessa a aba de envio de calibração.
 4. O sistema solicita as imagens de calibração para cada máquina que realizará a simetria.
@@ -45,19 +47,15 @@ O funcionário deve ter acesso ao sistema de administrador da dosimagem.
 Existem solicitações de serviço pendentes.
 
 ### Fluxo Principal:
-1. O funcionário faz login no sistema da dosimagem. (Caso de uso 6)
+1. O funcionário faz login no sistema da dosimagem. (Caso de uso 6: Login no Sistema dosImagem)
 2. O funcionário acessa o painel de administração.
 3. O sistema exibe as solicitações de serviço pendentes.
-4. O funcionário seleciona uma calibração de um cliente A.
-5. O sistema exibe as imagens de calibração enviadas pelo cliente.
-6. O funcionário baixa as imagens de calibração.
-7. O funcionário seleciona uma solicitação de um cliente A.
-8. O sistema exibe as imagens disponiveis do paciente e seus dados.
-9. O funcionário baixa as imagens do paciente.
-10. O funcionário envia as os dados e imagens do cliente e da calibração para o software 3D Slice.
-11. O software gera o relatório com base nas imagens e informações recebidas.
-12. O funcionário anexa o relatório na solicitação do cliente A.
-13. O funcionário anexa o PDF à solicitação do cliente.
+4. O funcionário escolhe a solicitação pendente que pretende processar. (Caso de uso 5: Baixar Arquivos de Paciente e Calibração)
+5. O funcionário baixa as imagens do paciente e da calibração do cliente A selecionado.
+6. O funcionário envia os dados e imagens do cliente e da calibração para o software 3D Slice.
+7. O software gera o relatório com base nas imagens e informações recebidas.
+8. O funcionário anexa o relatório na solicitação do cliente A.
+9. O funcionário encerra a solicitação do cliente A. (Caso de Uso 3: Monitorar Status de Solicitações de Serviço)
 
 ### Pós-condições:
 O relatório está anexado à solicitação do cliente.
@@ -76,14 +74,13 @@ Funcionário da Dosimagem
 - Existir solicitações de serviço em andamento.
 
 ### Fluxo Principal:
-1. O funcionário faz login no sistema da dosimagem. (Caso de uso 6)
+1. O funcionário faz login no sistema da dosimagem. (Caso de uso 6: Login no Sistema dosImagem)
 2. O funcionário acessa o painel de controle de solicitações de serviço.
 3. O sistema exibe uma lista das solicitações dos pacientes em andamento.
 4. O funcionário seleciona uma solicitação para visualizar mais detalhes.
 5. O sistema exibe o status atual da solicitação, como "Dados enviados", "Verificando Informações", "Informações Inválidas", "Processando a análise" ou "Análise concluída".
 6. O funcionário verifica se há alguma ação necessária para avançar com a solicitação.
 7. Se necessário, o funcionário atualiza o status da solicitação no sistema.
-8. O funcionário pode adicionar notas ou comentários à solicitação, se necessário.
 
 ### Pós-condições:
 - O status das solicitações é atualizado conforme as ações realizadas pelo funcionário, permitindo um acompanhamento eficaz do progresso dos serviços de imagem médica.
@@ -101,7 +98,7 @@ Cliente
 O cliente deve ter acesso ao sistema da Dosimagem. O relatório de serviço deve estar pronto para entrega.
 
 ### Fluxo Principal:
-1. O cliente faz login no sistema da Dosimagem. (Caso de uso 6)
+1. O cliente faz login no sistema da Dosimagem. (Caso de uso 6: Login no Sistema dosImagem)
 2. O cliente acessa a lista de relatórios de serviço prontos para entrega.
 3. O sistema exibe os relatórios disponíveis para o cliente.
 4. O cliente seleciona o relatório desejado para recebimento.
@@ -112,27 +109,33 @@ O cliente deve ter acesso ao sistema da Dosimagem. O relatório de serviço deve
 O relatório é entregue ao cliente com sucesso.
 
 ## Caso de Uso 5
-### Titulo: Atualizar Informações do Paciente
+### Título: Baixar Arquivos de Paciente e Calibração
 
-### Descrição: 
-Este caso de uso permite ao cliente atualizar as informações do paciente armazenadas no sistema dosImagem, garantindo que os dados estejam sempre precisos
+### Descrição:
+Neste caso de uso, um funcionário da Dosimagem realiza o download dos arquivos necessários, incluindo as imagens do paciente e da calibração, para processar uma solicitação de serviço.
 
-### Ator Principal: 
-Cliente.
+### Ator Principal:
+Funcionário da Dosimagem
 
 ### Pré-condições:
-O cliente deve ter acesso ao site dosImagem.
-O cliente deve estar cadastrado no sistema.
+- O funcionário deve estar autenticado no sistema da Dosimagem.
+- Existem solicitações de serviço pendentes que requerem o download de arquivos de paciente e calibração.
 
 ### Fluxo Principal:
-1. O cliente faz login no site dosImagem.
-2. O cliente acessa a opção de perfil do paciente.
-3. O sistema exibe as informações atuais do paciente.
-4. O cliente atualiza as informações conforme necessário.
-5. O cliente salva as alterações.
+1. O funcionário acessa o sistema da Dosimagem.
+2. O funcionário navega até o painel de administração.
+3. O sistema exibe uma lista das solicitações de serviço pendentes.
+4. O funcionário seleciona uma solicitação específica para processamento.
+5. O sistema exibe as informações da solicitação, incluindo detalhes do paciente e as calibrações necessárias.
+7. O funcionário seleciona as aba de imagens do paciente.
+8. O sistema oferece opções para baixar os arquivos selecionados.
+9. O funcionário confirma o download dos arquivos.
+10. O funcionário entra na seção de calibração.
+11. O sistema oferece opções para baixar os arquivos selecionados.
+12. O funcionário confirma o download dos arquivos.
 
 ### Pós-condições:
-As informações do paciente são atualizadas no sistema.
+- Os arquivos necessários, incluindo as imagens do paciente e da calibração, são baixados com sucesso, prontos para serem processados conforme necessário.
 
 ## Caso de Uso 6
 ### Título: Login no Sistema dosImagem
@@ -148,7 +151,7 @@ Usuário
 - O usuário deve estar cadastrado no sistema dosImagem.
 
 ### Fluxo Principal:
-1. O usuário acessa o site dosImagem.
+1. O usuário acessa o site dosImagem. 
 2. O usuário seleciona a opção de login.
 3. O sistema exibe os campos de entrada para nome de usuário e senha.
 4. O usuário insere seu nome de usuário e senha.
@@ -158,31 +161,3 @@ Usuário
 
 ### Pós-condições:
 O usuário está autenticado no sistema dosImagem e pode acessar as funcionalidades disponíveis de acordo com seu perfil de usuário.
-
-## Caso de Uso 7
-### Título: Baixar Arquivos de Paciente e Calibração
-
-### Descrição:
-Neste caso de uso, um funcionário da Dosimagem realiza o download dos arquivos necessários, incluindo as imagens do paciente e da calibração, para processar uma solicitação de serviço.
-
-### Ator Principal:
-Funcionário da Dosimagem
-
-### Pré-condições:
-- O funcionário deve estar autenticado no sistema da Dosimagem.
-- Existem solicitações de serviço pendentes que requerem o download de arquivos de paciente e calibração.
-
-### Fluxo Principal:
-1. O funcionário acessa o sistema da Dosimagem.
-2. O funcionário navega até o painel de administração ou área dedicada ao processamento de solicitações de serviço.
-3. O sistema exibe uma lista das solicitações de serviço pendentes.
-4. O funcionário seleciona uma solicitação específica para processamento.
-5. O sistema exibe as informações da solicitação, incluindo detalhes do paciente e as calibrações necessárias.
-6. O funcionário verifica as instruções da solicitação para identificar quais arquivos precisam ser baixados.
-7. O funcionário seleciona as imagens do paciente e da calibração associadas à solicitação.
-8. O sistema oferece opções para baixar os arquivos selecionados.
-9. O funcionário confirma o download dos arquivos.
-10. O sistema inicia o download dos arquivos selecionados para o dispositivo do funcionário.
-
-### Pós-condições:
-- Os arquivos necessários, incluindo as imagens do paciente e da calibração, são baixados com sucesso para o dispositivo do funcionário da Dosimagem, prontos para serem processados conforme necessário.
