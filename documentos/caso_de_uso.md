@@ -45,7 +45,7 @@ O funcionário deve ter acesso ao sistema de administrador da dosimagem.
 Existem solicitações de serviço pendentes.
 
 ### Fluxo Principal:
-1. O funcionário faz login no sistema da dosimagem.
+1. O funcionário faz login no sistema da dosimagem. (Caso de uso 6)
 2. O funcionário acessa o painel de administração.
 3. O sistema exibe as solicitações de serviço pendentes.
 4. O funcionário seleciona uma calibração de um cliente A.
@@ -76,7 +76,7 @@ Funcionário da Dosimagem
 - Existir solicitações de serviço em andamento.
 
 ### Fluxo Principal:
-1. O funcionário faz login no sistema da dosimagem.
+1. O funcionário faz login no sistema da dosimagem. (Caso de uso 6)
 2. O funcionário acessa o painel de controle de solicitações de serviço.
 3. O sistema exibe uma lista das solicitações dos pacientes em andamento.
 4. O funcionário seleciona uma solicitação para visualizar mais detalhes.
@@ -101,7 +101,7 @@ Cliente
 O cliente deve ter acesso ao sistema da Dosimagem. O relatório de serviço deve estar pronto para entrega.
 
 ### Fluxo Principal:
-1. O cliente faz login no sistema da Dosimagem.
+1. O cliente faz login no sistema da Dosimagem. (Caso de uso 6)
 2. O cliente acessa a lista de relatórios de serviço prontos para entrega.
 3. O sistema exibe os relatórios disponíveis para o cliente.
 4. O cliente seleciona o relatório desejado para recebimento.
