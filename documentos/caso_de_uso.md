@@ -14,7 +14,7 @@ O cliente deve ter acesso ao site da dosimagem.
 O cliente deve estar cadastrado no sistema.
 
 ### Fluxo Principal:
-1. O cliente faz login no site da dosimagem.
+1. O cliente faz login no site da dosimagem. (Caso de uso 6)
 2. O cliente acessa a opção de solicitação de serviço.
 3. O cliente acessa a aba de envio de calibração.
 4. O sistema solicita as imagens de calibração para cada máquina que realizará a simetria.
@@ -133,3 +133,28 @@ O cliente deve estar cadastrado no sistema.
 
 ### Pós-condições:
 As informações do paciente são atualizadas no sistema.
+
+## Caso de Uso 6
+### Título: Login no Sistema dosImagem
+
+### Descrição:
+Este caso de uso descreve o processo pelo qual um usuário acessa o sistema dosImagem através de autenticação, fornecendo suas credenciais de login.
+
+### Ator Principal:
+Usuário
+
+### Pré-condições:
+- O usuário deve ter acesso ao site dosImagem.
+- O usuário deve estar cadastrado no sistema dosImagem.
+
+### Fluxo Principal:
+1. O usuário acessa o site dosImagem.
+2. O usuário seleciona a opção de login.
+3. O sistema exibe os campos de entrada para nome de usuário e senha.
+4. O usuário insere seu nome de usuário e senha.
+5. O sistema verifica as credenciais do usuário.
+6. Se as credenciais estiverem corretas, o sistema autentica o usuário e concede acesso ao sistema.
+7. Se as credenciais estiverem incorretas, o sistema exibe uma mensagem de erro e permite que o usuário tente novamente.
+
+### Pós-condições:
+O usuário está autenticado no sistema dosImagem e pode acessar as funcionalidades disponíveis de acordo com seu perfil de usuário.
