@@ -29,6 +29,10 @@
 #### Referente ao requisito natural 04
 - RF04-1: Implementar um sistema de autenticação para verificar a identidade dos usuários antes de conceder acesso ao sistema.
 
+#### Referente ao requisito natural 05
+- RF06-1: Deve haver uma página claramente identificada na interface do usuário para visualização dos dados e imagens dos pacientes relacionados às solicitações.
+- RF06-2: Os dados dos pacientes devem seguir a ordem definida, começando pelo nome do paciente, seguido pelo tipo do exame, tipo da isometria, e assim por diante, conforme especificado.
+
 #### Referente ao requisito natural 07
 - RF07-1: Deve haver um botão visível e identificável, posicionado abaixo das imagens de calibração do cliente.
 - RF07-2: Após a conclusão do download, o sistema deve notificar o usuário sobre o sucesso da operação.
