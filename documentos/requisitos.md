@@ -1,16 +1,16 @@
 # Requisitos do Sistema
 
 ## Narrativa Livre (Requisitos em linguagem natural)
-- O sistema deve permitir que funcionários inexperientes consigam operá-lo.
-- O sistema deve permitir que o funcionários anexe os resultados dos cálculos feitos pelo Slide 3D.
-- O sistema deve apresentar uma interface amigável ao usuário.
-- O sistema deve fornecer uma interface para a criação de relatórios e resultados de exames.
-- O sistema deve permitir apenas que funcionários da Dosimagem acessem-no.
-- O sistema precisa enviar o relatório criado para o site principal, onde foi feita a solicitação do relatório.
-- Os funcionários devem poder acessar os históricos dos relatórios já criados.
-- Os funcionários devem ser capazes de visualizar as solicitações recebidas.
-- Os funcionários devem poder visualizar os dados e imagens dos pacientes relacionados às solicitações.
-- Os funcionários devem poder baixar as imagens de calibração e do cliente.
+1. O sistema deve permitir que funcionários inexperientes consigam operá-lo.
+2. O sistema deve permitir que o funcionários anexe os resultados dos cálculos feitos pelo Slide 3D.
+3. O sistema deve apresentar uma interface amigável ao usuário.
+4. O sistema deve fornecer uma interface para a criação de relatórios e resultados de exames.
+5. O sistema deve permitir apenas que funcionários da Dosimagem acessem-no.
+6. O sistema precisa enviar o relatório criado para o site principal, onde foi feita a solicitação do relatório.
+7. Os funcionários devem poder acessar os históricos dos relatórios já criados.
+8. Os funcionários devem ser capazes de visualizar as solicitações recebidas.
+9. Os funcionários devem poder visualizar os dados e imagens dos pacientes relacionados às solicitações.
+10. Os funcionários devem poder baixar as imagens de calibração e do cliente.
 
 ## Lista de requisitos do sistema (linguagem precisa e técnica, código para identificação) 
 ### Requisitos funcionais
