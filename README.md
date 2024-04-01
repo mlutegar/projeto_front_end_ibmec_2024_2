@@ -10,9 +10,9 @@ Desenvolvimento da interface front-end para o software de administração da Dos
 - [Requisitos](https://github.com/mlutegar/projeto_front_end_ibmec_2024_2/blob/casos_de_uso/documentos/requisitos.md)
 
 ### Casos de Uso
-- [Caso de Uso 1: Solicitar Serviço](/documentos/casos_de_uso/caso_de_uso_1.md)
-- [Caso de Uso 2: Processar Solicitações de Serviço](https://github.com/mlutegar/projeto_front_end_ibmec_2024_2/blob/casos_de_uso/documentos/caso_de_uso.md#caso-de-uso-2)
-- [Caso de Uso 3: Monitorar Status de Solicitações de Serviço](https://github.com/mlutegar/projeto_front_end_ibmec_2024_2/blob/casos_de_uso/documentos/caso_de_uso.md#caso-de-uso-3)
-- [Caso de Uso 4: Receber Relatório de Serviço](https://github.com/mlutegar/projeto_front_end_ibmec_2024_2/blob/casos_de_uso/documentos/caso_de_uso.md#caso-de-uso-4)
-- [Caso de Uso 5: Baixar Arquivos de Paciente e Calibração](https://github.com/mlutegar/projeto_front_end_ibmec_2024_2/blob/casos_de_uso/documentos/caso_de_uso.md#caso-de-uso-5)
-- [Caso de Uso 6: Login no Sistema](https://github.com/mlutegar/projeto_front_end_ibmec_2024_2/blob/casos_de_uso/documentos/caso_de_uso.md#caso-de-uso-6)
+- [Caso de Uso 1: Login no Sistema Dosimagem](/documentos/casos_de_uso/caso_de_uso_1.md)
+- [Caso de Uso 2: Visualizar Solicitações de Serviço Pendentes](/documentos/casos_de_uso/caso_de_uso_2.md)
+- [Caso de Uso 3: Selecionar Solicitação Pendente](/documentos/casos_de_uso/caso_de_uso_3.md)
+- [Caso de Uso 4: Baixar Arquivos de Paciente e Calibração(/documentos/casos_de_uso/caso_de_uso_4.md)
+- [Caso de Uso 5: Anexar Relatório na Solicitação do Cliente](/documentos/casos_de_uso/caso_de_uso_5.md)
+- [Caso de Uso 6: Encerrar Solicitação do Cliente](/documentos/casos_de_uso/caso_de_uso_6.md)
