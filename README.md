@@ -13,6 +13,6 @@ Desenvolvimento da interface front-end para o software de administração da Dos
 - [Caso de Uso 1: Login no Sistema Dosimagem](/documentos/casos_de_uso/caso_de_uso_1.md)
 - [Caso de Uso 2: Visualizar Solicitações de Serviço Pendentes](/documentos/casos_de_uso/caso_de_uso_2.md)
 - [Caso de Uso 3: Selecionar Solicitação Pendente](/documentos/casos_de_uso/caso_de_uso_3.md)
-- [Caso de Uso 4: Baixar Arquivos de Paciente e Calibração(/documentos/casos_de_uso/caso_de_uso_4.md)
+- [Caso de Uso 4: Baixar Arquivos de Paciente e Calibração](/documentos/casos_de_uso/caso_de_uso_4.md)
 - [Caso de Uso 5: Anexar Relatório na Solicitação do Cliente](/documentos/casos_de_uso/caso_de_uso_5.md)
 - [Caso de Uso 6: Encerrar Solicitação do Cliente](/documentos/casos_de_uso/caso_de_uso_6.md)
