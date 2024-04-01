@@ -27,8 +27,17 @@
 - RF02-4: Desenvolver uma função de notificação para alertar os funcionários sobre o sucesso ou falha do processo de anexo de PDF.
 
 #### Referente ao requisito natural 03 (RN03: O sistema deve fornecer uma interface para a visualização das solicitações pendente do cliente)
-- RF03-1: Na tela de cada solicitação precisa ter o nome do cliente, dados do cliente como: ....
-
+- RF03-1: Na interface de visualização das solicitações, deve ser exibida uma lista de todas as solicitações pendentes, ordenada pela coluna "criação data/hora".
+- RF03-2: Cada solicitação na lista deve ser representada por uma linha na tabela, contendo as informações "ID", "Usuario do Cliente", "Tipo do Isotopo", "Nome da calibração" e "Criação data/hora", separadas por coluna.
+- RF03-3: Deve haver opções de filtragem para permitir que os usuários reduzam a lista de solicitações pendentes com base em critérios específicos, como tipo de isótopo ou nome do cliente.
+- RF03-4: Para cada solicitação, deve ser exibida uma coluna para o ID da solicitação, garantindo uma identificação única e inequívoca de cada item na lista.
+- RF03-5: O sistema deve incluir uma coluna para o usuário do cliente associado a cada solicitação, exibindo o nome ou identificador do cliente responsável pela solicitação.
+- RF03-6: Deve ser fornecida uma coluna para o tipo do isótopo relacionado a cada solicitação, indicando o isótopo específico envolvido na solicitação de calibração.
+- RF03-7: Para cada solicitação, deve haver uma coluna para o nome da calibração solicitada, permitindo uma identificação clara e rápida do tipo de calibração necessária.
+- RF03-8: Além disso, o sistema deve incluir uma coluna para a data e hora de criação da solicitação, fornecendo informações sobre quando a solicitação foi registrada no sistema.
+- RF03-9: O sistema deve fornecer opções de paginação para lidar com grandes volumes de solicitações pendentes.
+- RF03-10: Para cada solicitação na lista, deve haver um botão que permite visualizar a solicitação de forma mais detalhada.
+  
 #### Referente ao requisito natural 04 (RN04: O sistema deve permitir apenas que funcionários da Dosimagem acessem-no)
 - RF04-1: Implementar um sistema de autenticação para verificar a identidade dos usuários antes de conceder acesso ao sistema.
 
