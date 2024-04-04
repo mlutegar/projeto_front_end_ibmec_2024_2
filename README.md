@@ -16,3 +16,6 @@ Desenvolvimento da interface front-end para o software de administração da Dos
 - [Caso de Uso 4: Baixar Arquivos de Paciente e Calibração](/documentos/casos_de_uso/caso_de_uso_4.md)
 - [Caso de Uso 5: Anexar Relatório na Solicitação do Cliente](/documentos/casos_de_uso/caso_de_uso_5.md)
 - [Caso de Uso 6: Encerrar Solicitação do Cliente](/documentos/casos_de_uso/caso_de_uso_6.md)
+
+### Protótipação
+- [Figma](https://www.figma.com/file/d37rEcxuq8tTHwQnC02UMY/Dosimagem?type=design&node-id=0%3A1&mode=design&t=RYlApjQBaMTRbX0R-1)
